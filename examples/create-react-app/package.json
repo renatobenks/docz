@@ -3,7 +3,7 @@
   "version": "2.0.0-rc.43",
   "private": true,
   "dependencies": {
-    "docz": "latest",
+    "docz": "2.4.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "^3.2.0"

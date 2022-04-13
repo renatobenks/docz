@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "docz-gatsby-monorepo",
+  "name": "docz-example-monorepo-package",
   "version": "2.0.0-rc.41",
   "description": "",
   "main": "index.js",

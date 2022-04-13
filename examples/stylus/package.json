@@ -13,7 +13,7 @@
     "build": "docz build"
   },
   "dependencies": {
-    "docz": "latest",
+    "docz": "2.4.0",
     "gatsby-plugin-stylus": "2.1.11",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

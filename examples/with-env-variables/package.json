@@ -1,5 +1,5 @@
 {
-  "name": "docz-example-basic",
+  "name": "docz-example-with-env-variables",
   "private": true,
   "version": "2.0.0-rc.41",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "serve": "docz serve"
   },
   "dependencies": {
-    "docz": "latest",
+    "docz": "2.4.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
