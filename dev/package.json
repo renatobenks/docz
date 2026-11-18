@@ -1,0 +1,35 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider docz dev",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider docz build",
+    "serve": "cross-env NODE_OPTIONS=--openssl-legacy-provider docz serve",
+    "app": "parcel serve src/index.html",
+    "app:build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "docz": "2.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "parcel": "^2.6.2",
+    "typescript": "^3.5.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

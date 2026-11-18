@@ -17,8 +17,8 @@
     "directory": "core/docz-core"
   },
   "scripts": {
-    "build": "yarn cross-env NODE_ENV=production rollup -c",
-    "dev": "yarn cross-env NODE_ENV=development yarn build -w",
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "dev": "cross-env NODE_ENV=development rollup -c -w",
     "fix": "yarn lint --fix",
     "lint": "yarn eslint . --ext mdx,ts,tsx",
     "precommit": "lint-staged",
