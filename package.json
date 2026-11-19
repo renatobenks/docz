@@ -30,7 +30,6 @@
     "promote:next": "lerna publish --conventional-commits --conventional-graduate",
     "release:beta": "yarn release --dist-tag=beta --preid=beta",
     "release:canary": "yarn release --force-publish=\"*\" --canary --exact --npm-client npm",
-    "precommit": "lint-staged",
     "commit": "git-cz",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
@@ -38,8 +37,8 @@
     "dev:docz": "yarn workspace dev dev"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,mdx}": [
-      "yarn packages",
+    "{core,other-packages,dev}/**/*.{js,jsx,ts,tsx,mdx}": [
+      "eslint --fix",
       "git add"
     ]
   },
