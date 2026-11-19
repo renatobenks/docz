@@ -1,7 +1,50 @@
 # Docz
 
+> **This is a fork of [doczjs/docz](https://github.com/doczjs/docz), which is now archived.**
+> It is maintained by [@renatobenks](https://github.com/renatobenks) and picks the project back up
+> where it was left off. See [About this fork](#about-this-fork).
+
 Docz makes it easy to write and publish beautiful interactive documentation for your code.
 Create MDX files showcasing your code and Docz turns them into a live-reloading, production-ready site.
+
+## About this fork 📜
+
+The original repository, created and owned by [Pedro Nauck](https://github.com/pedronauck), is
+archived. This fork exists to continue the work I stepped away from a few years ago.
+
+The context is in Pedro's own words, in
+[doczjs/docz#1634](https://github.com/pedronauck/docz/issues/1634): maintaining a project this
+widely used had cost him his health, and he had to choose between docz and himself. He chose
+himself, and the project went on stand-by. That's when he called me personally to
+ask me to take it over, because he didn't want what he had created to die.
+
+I took it on and started working on a new major version, `v3`. The plan I laid out publicly at the
+time is still there in
+[that same thread](https://github.com/pedronauck/docz/issues/1634#issuecomment-1032133807), which it was rather
+than chase bugs that were really the accumulated weight of years of past decisions, we would fix
+them in the next major, and lean on community contributions to keep v2 alive in the meantime.
+
+Also, what drew me in wasn't only the open source side of it, but we were considering building a commercial
+product on top of docz. That product never happened, and without it we never found the time to even
+maintain docz. So `v3` was never finished, and the project went quiet
+again, and this time for good, until the repository was archived last year.
+
+But I'm coming back to it now, from roughly where I left off. Mostly for t reasons:
+
+- **People are still using it.** Thousands of installs a day, years after the last release. That's
+  not a dead project. That's a project that was abandoned while people still depended on it.
+- **AI changed what one person can take on.** The amount of work that stopped me back then is no
+  longer the same amount of work today.
+
+A few things worth being upfront about:
+
+- This is a work in progress, maintained in whatever time I have. There are no release dates yet.
+- The current code still carries its original, now very outdated dependency stack. Expect rough
+  edges until that's addressed.
+- Issues filed against the archived upstream repository won't be answered there. If something is
+  broken here, open it [in this repository](https://github.com/renatobenks/docz/issues).
+
+I hope this can get back at what it was someday. Let's go! 🚀
 
 ## Why?
 
