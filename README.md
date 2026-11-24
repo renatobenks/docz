@@ -31,7 +31,7 @@ again, and this time for good, until the repository was archived last year.
 
 But I'm coming back to it now, from roughly where I left off. Mostly for t reasons:
 
-- **People are still using it.** Thousands of installs a day, years after the last release. That's
+- **People are still using it.** Thousands of installs a week, years after the last release. That's
   not a dead project. That's a project that was abandoned while people still depended on it.
 - **AI changed what one person can take on.** The amount of work that stopped me back then is no
   longer the same amount of work today.
